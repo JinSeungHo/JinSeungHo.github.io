@@ -37,7 +37,18 @@ $(document).ready(function () {
     $(this).next('ul').addClass('on');
   });
 
+  // modal
 
+  $('.container .notice-gelary .notice li:first-child').click(function () {
+
+    $('#modal').addClass('active');
+
+  });
+  $('#modal .modal-top .btn').click(function () {
+
+    $('#modal').removeClass('active');
+
+  });
 
 
 

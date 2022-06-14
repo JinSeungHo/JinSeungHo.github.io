@@ -35,6 +35,63 @@ body {
 }
 
 /* 커스텀 */
+#modal.active {
+  display: block;
+}
+
+#modal {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#modal .modal-top {
+  width: 700px;
+  height: 500px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#modal .modal-top .title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 22px;
+  font-weight: bold;
+
+
+}
+
+#modal .modal-top .body {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+  font-size: 18px;
+  /* line-height: 50; */
+}
+
+#modal .modal-top .btn {
+  width: 100px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 45px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  right: 20px;
+}
 
 .wrap {
   width: 1200px;
