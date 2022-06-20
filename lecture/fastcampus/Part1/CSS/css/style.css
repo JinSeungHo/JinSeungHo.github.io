@@ -1,0 +1,43 @@
+@import url(/css/reset.css);
+@import url(/lecture/fastcampus/css/style.css);
+
+
+
+.container {
+  width: 1000px;
+  height: 550px;
+  float: left;
+}
+
+.container .ex-link {
+  width: 980px;
+  height: 530px;
+  margin: 10px;
+  background-color: aliceblue;
+}
+
+.container .ex-link .ex-menu {
+  width: 900px;
+  margin: 0 40px 0 40px
+}
+
+.container .ex-link .ex-menu li {
+  float: left;
+  margin: 10px;
+}
+
+.container .ex-link .ex-menu li a:hover {
+  background-color: coral;
+  color: #ff0;
+
+}
+
+.container .ex-link .ex-menu li a {
+  display: block;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+
+  background-color: bisque;
+}

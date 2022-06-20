@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>너비(width,height)</title>
+  <link rel="stylesheet" href="/css/reset.css" />
+
+  <style>
+    div,
+    span {
+      width: auto;
+      height: auto;
+      background-color: orange;
+
+    }
+
+    span {
+      background-color: blue;
+    }
+
+    .parent {
+      width: 300px;
+      height: 200px;
+      background-color: royalblue;
+    }
+
+    .child {
+      min-width: 400px;
+      height: 100px;
+      background-color: orange;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div>hello</div>
+  <span>world</span>
+  <hr>
+  <div class="parent">
+    <div class="child"></div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>

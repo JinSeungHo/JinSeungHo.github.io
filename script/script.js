@@ -8,6 +8,17 @@ $(document).ready(function () {
     $(this).find('.sub-menu').stop().slideUp(500);
   });
 
+  // top menu
+
+  $('nav .top-main-menu>li').mouseover(function () {
+    $(this).find('.top-sub-menu').stop().slideDown(500);
+  }).mouseout(function () {
+    $(this).find('.top-sub-menu').stop().slideUp(500);
+  });
+
+
+
+
   // 슬라이드
 
   var index = 0;

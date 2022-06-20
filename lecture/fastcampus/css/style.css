@@ -1,0 +1,60 @@
+@import url(/css/reset.css);
+@import url(/css/style.css);
+
+
+.main-top {
+  width: 1000px;
+  height: 100px;
+  float: left;
+  background-color: #666;
+}
+
+nav .top-main-menu {
+  width: 1000px;
+  margin: 40px;
+}
+
+nav .top-main-menu>li {
+  float: left;
+
+}
+
+nav .top-main-menu>li:hover>a {
+  background-color: #930930;
+  color: #ff0;
+}
+
+nav .top-main-menu>li>a {
+  display: block;
+  width: 200px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
+
+nav .top-main-menu>li .top-sub-menu {
+  display: none;
+}
+
+nav .top-main-menu>li .top-sub-menu li {}
+
+nav .top-main-menu>li .top-sub-menu li a:hover {
+  background-color: #930930;
+  color: #ff0;
+}
+
+nav .top-main-menu>li .top-sub-menu li a {
+  display: block;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+  /* font-weight: bold; */
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
